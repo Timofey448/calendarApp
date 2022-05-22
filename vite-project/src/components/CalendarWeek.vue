@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-wrap md:flex-nowrap justify-center sm:mx-auto sm:max-w-lg mb-12">
+  <div class="flex flex-wrap lg:flex-nowrap justify-center sm:mx-auto mb-16">
     <CalendarDay      
       v-for="day in sharedState.data"
       :key="day.id"
